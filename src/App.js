@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Todousingstate from './components/Todousingstate';
+import Todousingredux from './components/Todousingredux';
+import Todousinglocalstorage from './components/Todousinglocalstorage';
+// import Hello from './components/Hello';
+
+
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  {/* <Todousingstate></Todousingstate> */}
+  <Todousingredux></Todousingredux>
+  {/* <Todousinglocalstorage></Todousinglocalstorage> */}
+  
+
     </div>
   );
 }
